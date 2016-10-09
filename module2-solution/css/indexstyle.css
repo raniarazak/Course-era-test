@@ -1,0 +1,91 @@
+* 	{	box-sizing: border-box; }
+
+
+
+body{ background-color: #FFDEAD;
+	 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	 font-weight:bold;
+	}
+
+h1	{	font-weight: 600;
+		text-align: center;
+		font-style: italic;
+		font-size:300%;
+	}
+
+
+.row{ width:100%; }
+
+
+
+#head1,#head2,#head3 {	position:absolute;
+						margin:0;
+						top:3px;
+						right:10px;
+						color:white;
+						font-weight: 200;
+						font-style: italic;
+						font-size:150%;
+					 }
+
+
+
+#s1,#s2,#s3	{	border: 1px solid black;
+				position: relative;
+				margin:3% 5% 5% 5%;
+				
+			}
+
+#s1	{ background-color: black; }
+
+#s2 { background-color: black; }
+
+#s3 { background-color: black; }
+
+
+
+#para1,#para2,#para3 {	padding:3% 3% 3% 3%;
+						margin-right: auto;
+  						margin-left: auto;
+  						position:relative;
+  						top:19px;
+  						font-style: italic;
+  						font-size: 120%;
+					 }
+
+#para1 { background-color: silver; }
+
+#para2 { background-color: #FF9966; }
+
+#para3 { background-color: #9999FF; }
+
+
+
+
+
+@media (min-width: 992px) {
+							.col-lg-4{	float: left;
+										width: 33.33%;
+
+									 }
+						  }
+
+
+@media(min-width:768px) and (max-width:991px) {
+												.col-md-6,.col-md-12{ float:left; }
+
+												.col-md-6 { width: 50%; }
+
+												.col-md-12{ width:100%; }
+
+												.col-md-12 section#s3 {	margin-left: 20px;
+																		margin-right: 20px;
+																	  }
+												}
+
+@media(max-width:767px) {
+							.col-sm-12  { float:left;
+										  width:100%;
+										}
+						}
+
